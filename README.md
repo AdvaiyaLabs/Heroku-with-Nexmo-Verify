@@ -1,5 +1,5 @@
 # Heroku 2FA
-<img src="https://raw.githubusercontent.com/AdvaiyaLabs/Heroku2FA/master/docs/image1.png" width=100>
+<img src="https://raw.githubusercontent.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/master/docs/image1.png" width=100>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
