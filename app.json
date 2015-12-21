@@ -1,0 +1,20 @@
+{
+  "name": "Heroku with Nexmo Verify",
+  "description": "Developer can integrate Two-factor in few lines of code.",
+  "logo": "https://www.nexmo.com/assets/img/footer-logo.svg",
+  "keywords": ["nexmo", "Two factor","python", "flask","API"],
+  "env": {
+    "NEXMO_KEY": {
+	  "description": "Your Nexmo API.",
+      "required": true
+    },
+    "NEXMO_SECRET": {
+      "description": "Your Nexmo Secret.",
+      "required": true
+    },
+    "VERIFY_DURATION": {
+      "description": "Type the code timeout.",
+      "required": false
+    }
+  }
+}

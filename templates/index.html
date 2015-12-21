@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Nexmo - Heroku 2FA Authentication</title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='Configuration.css') }}">
+</head>
+<body>
+<div class="body">
+	<div class="pageWrapper">
+		<div class="logoWraper"><img src="{{ url_for('static', filename='nexmo-logo.png') }}" alt="Nexmo" width="180"></div>
+		<h1 class="heading1">Heroku 2FA</h1>
+		<div class="mainContent">
+			<div class="mb-20">
+				<h2 class="heading1">Introduction</h2>
+				<p>Develop a Heroku app to provide the Two Factor Authentication (2FA) service using Nexmo Messaging APIs. The app should be integrated easily with any platform such as C#, Java, PHP and etc.</p>
+			</div>
+			
+			
+			<div class="mb-20">
+				<h2 class="heading1">Features</h2>
+				<p>
+					<ul>
+						<li>Simple integration with any Application.</li>
+						<li>Less configuration required.</li>
+						<li>Phone number verification using the SMS.</li>
+						<li>Dynamic security key generate.</li>
+					</ul>
+				</p>
+			</div>
+			<div class="mb-20">
+				<h2 class="heading1">Steps to deploy Heroku 2FA</h2>
+				<p>
+					<ul>
+						<li>Use the following URL in your application to send the verification code.
+							<ul>
+			<li>Request URL : <a href="javascript:void()">http://&lt;heroku-app-url&gt;/verify?dst=&lt;phone_with_country_code&gt;</a></li>
+								<li><b>dst</b> parameter is destination phone number with country code to send verification code.</li>
+								<li><b>Verify</b> will return you a request id in JSON format. Extract that request id and send back with code.</li>
+							</ul>
+						</li>
+						<li>To authenticate send code and request id on following URL.
+							<ul>
+								<li>Request URL : <a href="/">http://&lt;heroku-app-url&lt;/validate?code=&lt;Mobile received code&gt;&req_id=&lt;request_id&gt;</a></li>
+								<li>Send request on validate end point with code and request id query string.</li>
+								<li>Returns JSON with message and status.</li>
+							</ul>
+						</li>
+						<li>To search on Requests status that are terminated or still running.
+							<ul>
+<li>Request URL: <a href="/">http://&lt;heroku-app-url&gt;/status?req_id=&lt;request_id&gt;</a> </li>
+<li>Send request on status end point with request id query string.</li>
+<li>Return the JSON of status information.</li>
+
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+			
+		</div>
+		</div>
+    </div>
+</body></html>
