@@ -141,4 +141,4 @@ To search requests' status that are terminated, still running or completed, use 
 
 -   Key and Secret will display in the top bar as shown in the below image:
 
-<img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image11.png">
+<img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image11.png" width=600>
