@@ -5,7 +5,7 @@
 
 ## Introduction
 
-In today’s digital world where data is under constant attack, passwords may get compromised through techniques like phishing, keystroke logging and brute force. In such scenarios, Two-Factor Authentication (Heroku with Nexmo Verify) via SMS is an efficient way to verify user access. As every country has its own communication compliance rules and regulations, so implementing Heroku with Nexmo Verify functionality via SMS at a global scale becomes challenging for the developers.
+In today’s digital world where data is under constant attack, passwords may get compromised through techniques like phishing, keystroke logging and brute force. In such scenarios, Heroku with Nexmo Verify via SMS is an efficient way to verify user access. As every country has its own communication compliance rules and regulations, so implementing Heroku with Nexmo Verify functionality via SMS at a global scale becomes challenging for the developers.
 
 To implement Heroku with Nexmo Verify via SMS on a global scale over Heroku platform successfully, the developer community can use the **Heroku with Nexmo Verify** app that uses Nexmo Messaging APIs for user verification. This app can be deployed and integrated easily with any available programming languages for the phone verification and One-time-password (OTP).
 
