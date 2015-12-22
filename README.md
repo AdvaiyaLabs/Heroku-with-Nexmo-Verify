@@ -113,16 +113,16 @@ To search requests' status that are terminated, still running or completed, use 
 
 
 1.  To update the application variables, select Nexmo application from Heroku Dashboard.
-    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image7.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image7.png" width=400>
 
 2.  Click on **Settings** and then click the **Reveal Config Vars**.
-    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image8.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image8.png" width=400>
 
-3.  Click on the Edit icon as shown below to update the variables. <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=600>
+3.  Click on the Edit icon as shown below to update the variables. <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=400>
 
 4.  On the **Edit config variable**, a popup will be displayed. Update data and click on **Save changes**.
 
-> <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image10.png" width=600>
+> <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image10.png" width=400>
 
 ## Appendix
 
