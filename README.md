@@ -34,7 +34,7 @@ Enable Heroku developer community to implement Two Factor Authentication (2FA) s
 1.  Login to Heroku platform.
 
 2.  To setup Heroku with Nexmo Verify app, go to GitHub Repository: 
-(```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```)[https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git]
+[```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```](https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git)
 
 3.  Click on **Deploy to Heroku** button. This will start the installation on Heroku under your subscription.
 
@@ -67,7 +67,7 @@ While developing Heroku application using the above generated URL, you can apply
 
 1.  Use the following URL in your application to send the verification code:
 
-     (```http://<heroku-app-url>/verify?dst=&lt;phone_with_country_code&gt;```)[http://&lt;heroku-app-url&gt;/verify?dst=&lt;phone_with_country_code&gt;]
+     [```http://<heroku-app-url>/verify?dst=>phone_with_country_code>```](http://&lt;heroku-app-url&gt;/verify?dst=&lt;phone_with_country_code&gt;)
 
     - Replace the **&lt;heroku-app-url&gt;** with your **Heroku public URL.**
 
@@ -82,7 +82,7 @@ While developing Heroku application using the above generated URL, you can apply
 
 3.  To authenticate the **OTP** and **request id,** use the following URL:
 
-    (```http://<heroku-app-url>/validate?code=<Mobile received code>&req_id=<request_id>```)[http://&lt;heroku-app-url&gt;/validate?code=&lt;Mobile received code&gt;&req_id=&lt;request_id&gt;]
+    [```http://<heroku-app-url>/validate?code=<Mobile received code>&req_id=<request_id>```](http://&lt;heroku-app-url&gt;/validate?code=&lt;Mobile received code&gt;&req_id=&lt;request_id&gt;)
 
     - Replace the **&lt;heroku-app-url&gt;** with your **Heroku public URL.**
 
@@ -99,7 +99,7 @@ While developing Heroku application using the above generated URL, you can apply
 
 To search requests' status that are terminated, still running or completed, use the following URL:
 
-   (```http://<heroku-app-url>/status? req_id=<request_id>```)[http://&lt;heroku-app-url&gt;/status?req_id=&lt;request_id&gt;]
+   [```http://<heroku-app-url>/status? req_id=<request_id>```](http://&lt;heroku-app-url&gt;/status?req_id=&lt;request_id&gt;)
 
    1.  Replace the **&lt;heroku-app-url&gt;** with your **Heroku public URL.**
 
@@ -113,16 +113,19 @@ To search requests' status that are terminated, still running or completed, use 
 
 
 1.  To update the application variables, select Nexmo application from Heroku Dashboard.
+
     <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image7.png" width=400>
 
 2.  Click on **Settings** and then click the **Reveal Config Vars**.
+
     <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image8.png" width=400>
 
-3.  Click on the Edit icon as shown below to update the variables. <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=400>
+3.  Click on the Edit icon as shown below to update the variables. 
+    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=400>
 
 4.  On the **Edit config variable**, a popup will be displayed. Update data and click on **Save changes**.
 
-> <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image10.png" width=400>
+    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image10.png" width=400>
 
 ## Appendix
 
