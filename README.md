@@ -34,6 +34,7 @@ Enable Heroku developer community to implement Two Factor Authentication (2FA) s
 1.  Login to Heroku platform.
 
 2.  To setup Heroku with Nexmo Verify app, go to GitHub Repository: 
+
 [```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```](https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git)
 
 3.  Click on **Deploy to Heroku** button. This will start the installation on Heroku under your subscription.
@@ -48,7 +49,7 @@ Enable Heroku developer community to implement Two Factor Authentication (2FA) s
 
 6.  Set the Nexmo application variable to send the SMS as shown below:
 
-    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image6.png" width=400>
+    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image6.png" height=400>
 
     - Extract the API and SECRET key from the Nexmo site. See the Appendix.
 
@@ -121,7 +122,8 @@ To search requests' status that are terminated, still running or completed, use 
     <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image8.png" width=400>
 
 3.  Click on the Edit icon as shown below to update the variables. 
-    <img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=400>
+    
+	<img src="https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify/blob/master/docs/image9.png" width=400>
 
 4.  On the **Edit config variable**, a popup will be displayed. Update data and click on **Save changes**.
 
