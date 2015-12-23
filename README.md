@@ -5,13 +5,13 @@
 
 ## Introduction
 
-In today’s digital world where data is under constant attack, passwords may get compromised through techniques like phishing, keystroke logging and brute force. In such scenarios, Heroku with Nexmo Verify via SMS is an efficient way to verify user access. As every country has its own communication compliance rules and regulations, so implementing Heroku with Nexmo Verify functionality via SMS at a global scale becomes challenging for the developers.
+In today’s digital world where data is under constant attack, passwords may get compromised through techniques like phishing, keystroke logging and brute force. In such scenarios, Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) via SMS is an efficient way to verify user access. As every country has its own communication compliance rules and regulations, so implementing Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) functionality via SMS at a global scale becomes challenging for the developers.
 
-To implement Heroku with Nexmo Verify via SMS on a global scale over Heroku platform successfully, the developer community can use the **Heroku with Nexmo Verify** app that uses Nexmo Messaging APIs for user verification. This app can be deployed and integrated easily with any available programming languages for the phone verification and One-time-password (OTP).
+To implement Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) via SMS on a global scale over Heroku platform successfully, the developer community can use the **Heroku with Nexmo Verify** app that uses Nexmo Messaging APIs for user verification. This app can be deployed and integrated easily with any available programming languages for the phone verification and One-time-password (OTP).
 
 ## Use Case
 
-Enable Heroku developer community to implement Heroku with Nexmo Verify services via SMS using Nexmo messaging APIs, so they can easily deploy and integrate it with any platform (C\#, Java, PHP).
+Enable Heroku developer community to implement Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) services via SMS using Nexmo messaging APIs, so they can easily deploy and integrate it with any platform (C\#, Java, PHP).
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ Enable Heroku developer community to implement Heroku with Nexmo Verify services
 
 1.  Login to Heroku platform.
 
-2.  To setup Heroku with Nexmo Verify app, go to GitHub Repository: 
+2.  To setup Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) app, go to GitHub Repository: 
 
 [```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```](https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git)
 
@@ -64,7 +64,7 @@ Enable Heroku developer community to implement Heroku with Nexmo Verify services
 ## Steps to use the Heroku with Nexmo Verify
 
 
-While developing Heroku application using the above generated URL, you can apply the Heroku with Nexmo Verify functionality.
+While developing Heroku application using the above generated URL, you can apply the Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) functionality.
 
 1.  Use the following URL in your application to send the verification code:
 
