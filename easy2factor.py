@@ -14,7 +14,7 @@ app.secret_key = 'F12Zr47j\3yX R~X@H!jmM]Lwf/,?KT'
 
 NEXMO_API = os.environ.get('NEXMO_KEY')
 NEXMO_SECRET_KEY = os.environ.get('NEXMO_SECRET')
-BRAND_NAME = 'Your verification '
+BRAND_NAME = 'Your verification'
 VERIFY_DURATION = 5 * 60 
 BASE_URL = 'https://api.nexmo.com'
 
