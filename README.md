@@ -11,7 +11,7 @@ To implement Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) via SMS o
 
 ## Use Case
 
-Enable Heroku developer community to implement Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) services via SMS using Nexmo messaging APIs, so they can easily deploy and integrate it with any platform (C\#, Java, PHP).
+Enable Heroku developer community to implement Heroku with Two Factor Authentication (2FA) services via SMS using Nexmo messaging APIs, so they can easily deploy and integrate it with any platform (C\#, Java, PHP).
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ Enable Heroku developer community to implement Heroku with [Nexmo Verify](https:
 
 2.  To setup Heroku with [Nexmo Verify](https://www.nexmo.com/verify/) app, go to GitHub Repository: 
 
-[```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```](https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git)
+	[```https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git```](https://github.com/AdvaiyaLabs/Heroku-with-Nexmo-Verify.git)
 
 3.  Click on **Deploy to Heroku** button. This will start the installation on Heroku under your subscription.
 
